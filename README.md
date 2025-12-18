@@ -36,17 +36,23 @@ The project consists of a full-stack data science pipeline:
 ├── movie_list.pkl               # Processed movie dataframe (Generated)
 ├── similarity.pkl               # Similarity matrix (Generated)
 └── README.md                    # Project documentation
+```
 
-## 🛠️  Installation & Setup
-# 1. Clone the repository
-git clone [https://github.com/your-username/movie-matcher.git](https://github.com/your-username/movie-matcher.git)
-cd movie-matcher
-
-# 2. Install required dependencies
+🛠️  Installation & Setup
+---
+### 1. Clone the repository
+```text
+git clone [https://github.com/luka612-max/movie_recommender.git](https://github.com/luka612-max/movie_recommender.git)
+cd movie_recommender
+```
+### 2. Install required dependencies
+```text
 pip install streamlit pandas requests scikit-learn urllib3
+```
+### 3. Process the data and generate models
+ Open movie_recommeder.ipynb and run all cells to create the .pkl files
 
-# 3. Process the data and generate models
-# Open movie_recommeder.ipynb and run all cells to create the .pkl files
-
-# 4. Launch the Streamlit application
-streamlit run main.py 
+### 4. Launch the Streamlit application
+```text
+streamlit run main.py
+```
